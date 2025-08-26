@@ -1,0 +1,34 @@
+curl https://bedrock-runtime.us-east-1.amazonaws.com/model/us.anthropic.claude-3-5-haiku-20241022-v1:0/invoke-with-response-stream \
+  -H "Content-Type: application/json" \
+  -H "connection: keep-alive" \
+  -H "Accept: application/json" \
+  -H "X-Stainless-Retry-Count: 0" \
+  -H "X-Stainless-Timeout: 600" \
+  -H "X-Stainless-Lang: js" \
+  -H "X-Stainless-Package-Version: 0.55.1" \
+  -H "X-Stainless-OS: MacOS" \
+  -H "X-Stainless-Arch: x64" \
+  -H "X-Stainless-Runtime: node" \
+  -H "X-Stainless-Runtime-Version: v22.14.0" \
+  -H "anthropic-dangerous-direct-browser-access: true" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "x-app: cli" \
+  -H "User-Agent: claude-cli/1.0.89 (external, cli)" \
+  -H "content-type: application/json" \
+  -H "x-stainless-helper-method: stream" \
+  -H "accept-language: *" \
+  -H "ec-fetch-mode: cors" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "Authorization: Bearer ABSKQmVkcm9ja0FQSUtleS15b2JsLWF0LTA4MTg5MzAzMzk0NTpWVmlBemRyOGpZSVRPb1FBbHJkWi9OVjZDZ09GTnQ1WWY3QlRuL0FUbmpVeTFjaTNVeG13eVgyVk1Cdz0=" \
+  -d '{
+    "anthropic_version": "bedrock-2023-05-31",
+    
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, Claude!"
+      }
+    ],
+    "max_tokens": 20000
+  }' \
+  --output resp2
