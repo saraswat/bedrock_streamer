@@ -19,7 +19,7 @@ curl https://bedrock-runtime.us-east-1.amazonaws.com/model/us.anthropic.claude-3
   -H "accept-language: *" \
   -H "ec-fetch-mode: cors" \
   -H "accept-encoding: gzip, deflate" \
-  -H "Authorization: Bearer ABSKQmVkcm9ja0FQSUtleS15b2JsLWF0LTA4MTg5MzAzMzk0NTpWVmlBemRyOGpZSVRPb1FBbHJkWi9OVjZDZ09GTnQ1WWY3QlRuL0FUbmpVeTFjaTNVeG13eVgyVk1Cdz0=" \
+  -H "Authorization: Bearer XXX" \
   -d '{
     "anthropic_version": "bedrock-2023-05-31",
     
